@@ -1,0 +1,14 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("www.twitch.tv") {
+
+  h1, h2, h3, h4, h5 {
+    font-weight: 600;
+  }
+  
+  body {
+    color: #32323E;
+    font: 12px/1.5 "Segoe UI";
+  }
+  
+}
