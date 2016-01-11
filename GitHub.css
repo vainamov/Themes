@@ -1,0 +1,17 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("github.com") {
+  
+  body {
+    font: 13px/1.4 "Segoe UI",Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+  
+  .markdown-body > p, .markdown-body > blockquote {
+    font-family: "Segoe UI";
+  }
+  
+  button {
+    font-family: "Segoe UI";
+  }
+  
+}
