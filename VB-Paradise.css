@@ -1,0 +1,41 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("vb-paradise.de") {
+  h1, h2, h3, h4, h5, h6, p, body, html, div, li, ul, button {
+    font-family: 'Segoe UI' !important;
+  }
+  
+  .codeBox > div > ol > li {
+    font-family: Consolas !important;
+    font-size: 10pt;
+  }
+  
+  .boxHeadline > h1 {
+    font-weight: 600;
+  }
+  
+  .message .messageContent .messageHeader .messageHeadline > h1 {
+    font-weight: 600;
+  }
+  
+  .messageGroupList tr.new .columnSubject > h3 > .messageGroupLink {
+    font-weight: 600;
+  }
+  
+  .containerHeadline > h3 > a {
+    font-weight: 600;
+  }
+  
+  .mainMenu > ul > li.active > a {
+    font-weight: 600;
+  }
+  
+  .mainMenu > ul > li > a {
+    font-weight: 600;
+  }
+  
+  .dropdownMenu li > a > div > h3 {
+    font-weight: 600;
+  }
+
+}
