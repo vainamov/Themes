@@ -1,0 +1,48 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("twitter.com") {
+  html, body, #doc, #page-outer {
+    font-family: 'Segoe UI' !important;
+  }
+  strong.fullname js-action-profile-name show-popup-with-id {
+    font-family: 'Segoe UI' !important;
+  }
+  .ProfileNameTruncated-link {
+    font-weight: 600 !important;
+  }
+  span.username js-action-profile-name {
+    font-family: 'Segoe UI' !important;
+  }
+  button {
+    font-family: 'Segoe UI' !important;
+  }
+  .global-nav-inner {
+    background: none repeat scroll 0% 0% #222C37;
+  }
+  .ProfileHeaderCard-nameLink {
+    font-size: 22px;
+    font-weight: 600 !important;
+    line-height: 1;
+    word-wrap: break-word;
+  }
+  .fullname {
+    font-weight: 600 !important;
+  }
+  .btn {
+    font-weight: 600 !important;
+  }
+  .DashboardProfileCard-name {
+    font-weight: 600;
+}
+  .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname {
+    font-weight: 600 !important;
+  }
+  body.ms-windows {
+    font-family: 'Segoe UI' !important;
+  }
+  .ProfilePopupContainer--bellbird .profile-details .fullname a {
+    color: #292F33;
+    font-weight: 600 !important;
+    font-size: 22px;
+  }
+}
