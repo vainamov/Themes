@@ -37,5 +37,10 @@
   .dropdownMenu li > a > div > h3 {
     font-weight: 600;
   }
+  
+  .table th, .cke_wysiwyg_div table th {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: none;
+  }
 
 }
