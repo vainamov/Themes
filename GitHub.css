@@ -3,7 +3,7 @@
 @-moz-document domain("github.com") {
   
   body {
-    font: 13px/1.4 "Segoe UI", Helvetica, Arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font: 13px/1.4 "Segoe UI",Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   }
   
   .markdown-body > p, .markdown-body > blockquote {
@@ -18,9 +18,52 @@
     font-family: Segoe UI;
   }
   
+  h1 > strong > a {
+    font-weight: 600;
+  }
+  
   h1, h2, h3, h4, h5, h6 {
     font-family: Segoe UI;
     font-weight: 600 !important;
+  }
+  
+  .btn-primary {
+    color: #FFF;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.12);
+    background-color: #60B044;
+    background-image: linear-gradient(#60B044, #60B044);
+  }
+  
+  .btn {
+    background-image: none;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .markdown-body .highlight pre, .markdown-body pre {
+    background-color: #EEE;
+    border-radius: 0px;
+  }
+  
+  .site-search .chromeless-input {
+    font-family: Segoe UI;
+  }
+  
+  .breadcrumb strong.final-path {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .breadcrumb .repo-root {
+    font-weight: 600;
+  }
+  
+  .breadcrumb.js-zeroclipboard-target > span {
+    font-weight: 600;
+  }
+  
+  .user-mention {
+    margin-left: 3px;
   }
   
 }
