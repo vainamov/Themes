@@ -9,7 +9,7 @@ Themes for the Mozilla Firefox Addon "Stylish".
 
 ###Screenshots
 ####GitHub
-![GitHub](http://fdev.markab.uberspace.de/polaroids/cc2a9a58b4944486bbec5c9134652a3f.png)
+![GitHub](http://fdev.markab.uberspace.de/polaroids/60ca2224b36c8c5a6d2399c2ac3b9f1a.png)
 
 ####VB-Paradise
 ![VB-Paradise](http://fdev.markab.uberspace.de/polaroids/8e11691c4e683ff35dcc275a481485aa.png)
