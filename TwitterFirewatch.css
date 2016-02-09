@@ -1,0 +1,97 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("twitter.com") {
+  html, body, #doc, #page-outer {
+    font-family: 'Segoe UI' !important;
+  }
+  strong.fullname js-action-profile-name show-popup-with-id {
+    font-family: 'Segoe UI' !important;
+  }
+  .ProfileNameTruncated-link {
+    font-weight: 600 !important;
+  }
+  span.username js-action-profile-name {
+    font-family: 'Segoe UI' !important;
+  }
+  button {
+    font-family: 'Segoe UI' !important;
+  }
+  .global-nav-inner {
+    background: none repeat scroll 0% 0% #210002;
+  }
+  .ProfileHeaderCard-nameLink {
+    font-size: 22px;
+    font-weight: 600 !important;
+    line-height: 1;
+    word-wrap: break-word;
+  }
+  .Icon--home, .Icon--notifications, .Icon--dm {
+    color: #973700;
+  }
+  .global-nav .search-icon .Icon {
+    color: #FFAF00;
+  }
+  .dropdown-menu {
+    background-color: #210002;
+    border: 1px solid #973700;
+  }
+  .dropdown-divider {
+    border-bottom: 1px dotted #973700;
+  }
+  div > div > b.fullname {
+    color: #FFAF00;
+  }
+  .global-nav .search-input {
+    background-color: #210002;
+    color: #FFAF00;
+    border: 1px solid #973700;
+  }
+  .global-nav .search-input:focus {
+    background-color: #973700;
+    color: #FFAF00;
+    border: 1px solid #973700;
+  }
+  .nav > li > a .text {
+    color: #973700;
+  }
+  .fullname {
+    font-weight: 600 !important;
+  }
+  .btn {
+    font-weight: 600 !important;
+  }
+  .ProfileHeaderCard-name {
+    line-height: 1.4em;
+  }
+  .dropdown-caret .caret-inner {
+    border-bottom: 9px solid #97370;
+  }
+  .dropdown-caret .caret-outer {
+    border-bottom: 10px solid #973700;
+    border-bottom-color: #973700;
+  }
+  .dropdown-caret .caret-inner {
+    border-bottom: 9px solid #973700;
+    border-bottom-color: #973700;
+  }
+  span.typeahead-user-item-info > span.fullname {
+    color: #FFAF00;
+  }
+  span.typeahead-user-item-info > span.username {
+    color: #973700 !important;
+  }
+  .DashboardProfileCard-name {
+    font-weight: 600;
+  }
+  .GalleryTweet .account-group .fullname, .GalleryTweet .account-group:hover .fullname {
+    font-weight: 600 !important;
+  }
+  body.ms-windows {
+    font-family: 'Segoe UI' !important;
+  }
+  .ProfilePopupContainer--bellbird .profile-details .fullname a {
+    color: #292F33;
+    font-weight: 600 !important;
+    font-size: 22px;
+  }
+}
